@@ -96,7 +96,7 @@ Untuk mendapatkan display wireshark yang hanya menampilkan paket menuju port 80,
   1. Download resource soal3-6.pcapng dan buka filenya di wireshark
   2. Cari ip address dari lipi.go.id yang akan digunakan untuk memfilter nantinya
   
-<img alt="hasil no. 6(1)" src="pic/soal6.png"> 
+<img alt="hasil no. 6(1)" src="pic/soal6.jpg"> 
 
   3. Display filter dengan menggunakan ip dst karena menuju ke lipi.go.id  sehingga menjadi → ip.dst == 203.160.128.158
 
