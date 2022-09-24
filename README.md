@@ -141,7 +141,7 @@ Setelah melihat isi percakapan terdapat petunjuk bahwa file dikirim melalui port
   7. Masukan command openssl des3 -d -salt -in B08.des3 -out flag.txt.
   8. Penjelasan password pada nomer 10.
 
-<img alt="hasil no. 9" src="pic/soal9.png">
+<img alt="hasil no. 9" src="pic/soal10.png">
 
 <img alt="hasil no. 9" src="pic/soal9(1).png">
 
