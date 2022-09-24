@@ -25,7 +25,7 @@ Untuk mendapatkan web server yang digunakan pada "monta.if.its.ac.id", digunakan
   
  Server yang digunakan: nginx/1.10.3
  
- <img alt="hasil no. 1" src="">
+ <img alt="hasil no. 1" src="pic/soal1">
 
 
 ## Soal 2
