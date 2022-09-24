@@ -61,12 +61,40 @@ Untuk mendapatkan display wireshark yang hanya menampilkan paket berasal port 21
 ## Soal 5
 ***Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!***<br><br>
 
+Untuk mendapatkan display wireshark yang hanya menampilkan paket berasal port 443, digunakan langkah-langkah sebagai berikut:
+  1. Download resource soal3-6.pcapng dan buka filenya di wireshark
+  2. Display filter dengan menggunakan dstport dan srcport karena berasal port 443 sehingga menjadi → tcp.srcport == 443 || udp.srcport == 443
+
+ Filter: **tcp.srcport == 443 || udp.srcport == 443**
+ 
+<img alt="hasil no. 5" src="pic/soal5.png"> 
 
 ## Soal 6
 ***Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!***<br><br>
 
+Untuk mendapatkan display wireshark yang hanya menampilkan paket menuju port 80, digunakan langkah-langkah sebagai berikut:
+  1. Download resource soal3-6.pcapng dan buka filenya di wireshark
+  2. Cari ip address dari lipi.go.id yang akan digunakan untuk memfilter nantinya
+  
+<img alt="hasil no. 6(1)" src="pic/soal6.png"> 
+
+  3. Display filter dengan menggunakan ip dst karena menuju ke lipi.go.id  sehingga menjadi → ip.dst == 203.160.128.158
+
+Filter: **ip.dst == 203.160.128.158**
+
+<img alt="hasil no. 6(2)" src="pic/soal6(1).png">
+
 ## Soal 7
 ***Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!***<br><br>
+
+Untuk mendapatkan display wireshark yang hanya menampilkan paket yang berasal dari ip kalian, digunakan langkah-langkah sebagai berikut:
+  1. Buka Wireshark
+  2. Lalu masukkan ip pada bagian Capture filter bagian bawah yang diambil dari setting laptop yang akan dimasukkan untuk memfilter nantinya 
+
+ IP address: **192.168.43.180**<br>
+ Capture Filter : **src host 192.168.43.180**
+ 
+ <img alt="hasil no. 7" src="pic/soal7.png">
 
 ## Soal 8
 ***Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.***<br><br>
@@ -82,4 +110,8 @@ Untuk mendapatkan display wireshark yang hanya menampilkan paket berasal port 21
     1. Baru dalam menggunakan wireshark 
     2. Jadwal jarkom bentrok dengan suporteran basket putri FTEIC vs FTK pada hari senin kemarin
   + Rafael Asi Kristanto Tambunan
+    1. Baru dalam menggunakan wireshark
+    2. Saat menggunakan wireshark, pada halaman pertama tidak tersedia bagian localhost area
+       <img alt="Coba Rafael" src="pic/Coba.jpeg">
+
   + Sejati Bakti Raga
