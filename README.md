@@ -1,5 +1,25 @@
 # Jarkom-Modul-1-B08-2022
 
+## Anggota Kelompok
+<table>
+ 	<tr>
+ 		<td> Nama </td>
+ 		<td> NRP</td>
+ 	</tr>
+ 	<tr>
+ 		<td> Aaliyah Farah Adibah </td>
+ 		<td> 5025201070 </td>
+ 	</tr>
+  <tr>
+ 		<td> Rafael Asi Kristanto Tambunan </td>
+ 		<td> 5025201168 </td>
+ 	</tr>
+  <tr>
+ 		<td> Sejati Bakti Raga </td>
+ 		<td> 5025201007 </td>
+ 	</tr>
+ </table>
+
 ## Daftar Isi
   + [Soal 1](#soal-1)
   + [Soal 2](#soal-2)
