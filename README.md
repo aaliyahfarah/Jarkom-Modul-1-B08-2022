@@ -126,7 +126,7 @@ Untuk menulusuri percakapan pada file yang telah disiapkan
 
 <img alt="hasil no. 8" src="pic/soal8.png">
 
-<img alt="hasil no. 8(1)" src="pic/soal8(1).png">
+<img alt="hasil no. 8" src="pic/soal8(1).png">
 
 ## Soal 9
 ***Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.***<br><br>
@@ -142,8 +142,10 @@ Setelah melihat isi percakapan terdapat petunjuk bahwa file dikirim melalui port
   8. Penjelasan password pada nomer 10.
 
 <img alt="hasil no. 9" src="pic/soal9.png">
-<img alt="hasil no. 9(1)" src="pic/soal9(1).png">
-<img alt="hasil no. 9(2)" src="pic/soal9(2).png">
+
+<img alt="hasil no. 9" src="pic/soal9(1).png">
+
+<img alt="hasil no. 9" src="pic/soal9(2).png">
 
 ## Soal 10
 ***Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!***<br><br>
@@ -165,3 +167,5 @@ Setelah mendekripsi file des3 nya pengguna akan dimintai password untuk membuka 
        <img alt="Coba Rafael" src="pic/Coba.jpeg">
 
   + Sejati Bakti Raga
+    1. Baru dalam menggunakan wireshark
+    2. Referensi anime yang kurang untuk nomer 10
