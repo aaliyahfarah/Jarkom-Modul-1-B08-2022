@@ -119,11 +119,41 @@ Untuk mendapatkan display wireshark yang hanya menampilkan paket yang berasal da
 ## Soal 8
 ***Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.***<br><br>
 
+Untuk menulusuri percakapan pada file yang telah disiapkan
+  1. Melakukan filter menggunakan kata yang kemungkinan terdapat dalam percakan tersebut, contohnya soal, jawaban, dan lain-lain.
+  2. Masukan command tcp contains jawaban pada wireshark.
+  3. Kemudian follow address yang telah didapatkan untuk melihat isi percakapan tersebut.
+
+*gambar
+
+*gambar
+
 ## Soal 9
 ***Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.***<br><br>
 
+Setelah melihat isi percakapan terdapat petunjuk bahwa file dikirim melalui port 9002
+  1. Masukan command tcp.srcport==9002.
+  2. Pilih analyze.
+  3. Pilih follow.
+  4. pilih tcp stream.
+  5. Ubah format filenya menjadi raw kemudian save dengan penamaan sesua nama kelompok yaitu B08.des3
+  6. Selanjutnya untuk mendekripsi file des3 nya gunakan wsl.
+  7. Masukan command openssl des3 -d -salt -in B08.des3 -out flag.txt.
+  8. Penjelasan password pada nomer 10.
+
+*gambar
+
+*gambar
+
 ## Soal 10
 ***Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!***<br><br>
+
+Setelah mendekripsi file des3 nya pengguna akan dimintai password untuk membuka file falg.txt nya. 
+  1. Pada percakapan yang didapatkan di nomer 8 ditemukan petunjuknya untuk passwordnya yaitu karakter anime kembar lima.
+  2. Passwordnya adalah nakano yaitu marga atau nama keluarga dari karakter anime tersebut.
+  3. Setelah memasukan password maka file flag.txt nya bisa dibuka dan berikut ini outputnya.
+
+*gambar 
 
 ## Kendala
   + Aaliyah Farah Adibah
